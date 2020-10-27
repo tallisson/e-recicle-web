@@ -16,7 +16,7 @@
 }
 
 .page-signup header img {
-  width: 60%;
+  width: 50%;
 }
 
 .page-signup .header-main {
@@ -65,4 +65,29 @@
 
 .page-signup footer span i {
   color: red;
+}
+
+@media(max-width: 900px) {
+  .page-signup main {
+    width: 100vw;
+  }
+
+  .page-signup .header-main {
+    margin-top: 15px;
+  }
+
+  .page-signup main form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-signup header {
+    position: static;    
+    width: 100%;
+
+    margin-top: 10px;  
+    margin-bottom: 30px;
+    text-align: center;
+  }
 }
