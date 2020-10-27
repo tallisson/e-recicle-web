@@ -16,7 +16,7 @@ function Home() {
         </header>
 
         <main>
-          <h1>Seu app para coleta de óleo.</h1>
+          <h1>e-Recicle: Seu app para coleta de óleo.</h1>
           <p>Ajudamos você a descartar o óleo de cozinha de forma consciente :)</p>
 
           <Link to="/login" className="link-primary">
