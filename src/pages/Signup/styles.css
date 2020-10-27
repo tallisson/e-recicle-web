@@ -1,7 +1,68 @@
-.main-signup {
+.page-signup {
   height: 100vh;
-  
+  position: relative;
+
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex: 1;  
+}
+
+.page-signup header {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.page-signup header img {
+  width: 60%;
+}
+
+.page-signup .header-main {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.page-signup main {
+  flex: 1;
+}
+
+.page-signup main form {
+  width: 560px;
+}
+
+.page-signup main form .form-group input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+
+  border: 1px solid var(--primary-color);
+  border-radius: 2px;
+}
+
+.page-signup main form .form-group label span.required {
+  color: red;
+}
+
+.page-signup main form button.btn-submit {
+  padding: 6px 3px;
+  width: 100%;
+  background: var(--secondary-color);
+
+  border: 1px solid var(--primary-color);
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 200;
+}
+
+.page-signup footer {
+  font-size: 14px;
+}
+
+.page-signup footer span i {
+  color: red;
 }
