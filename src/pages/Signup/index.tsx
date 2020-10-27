@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiHeart } from 'react-icons/fi';
 
-import logo from '../../images/Logo.png';
+import logo from '../../images/Logo01.png';
 
 import './styles.css';
 

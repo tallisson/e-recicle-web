@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-import logo from '../../images/Logo.png';
+import logo from '../../images/Logo01.png';
 import homeBg from '../../images/home-background.svg';
 
 function Home() {
