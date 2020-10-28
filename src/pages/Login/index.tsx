@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
-import logo from '../../images/Logo01.png';
-import { FiHeart } from 'react-icons/fi';
+import Footer from '../../components/Footer';
+import Header from '../../components/Header';
+
+import './styles.css';
 
 function Login() {
   const [password, setPassword] = useState('');
@@ -12,12 +13,9 @@ function Login() {
   }
 
   return (
-    <div className="page-signup">
-      <header>
-        <Link to="/">
-          <img src={logo} alt="e-Recicle" />
-        </Link>        
-      </header>
+    <div className="page-login">
+      <Header />
+      
       <main>
         <div className="header-main">
           <p>e-Recicle</p>
@@ -65,9 +63,7 @@ function Login() {
         </form>
       </main>
 
-      <footer>
-        <span>IFMA-BdC <i><FiHeart /></i> 2020</span>
-      </footer>
+      <Footer />
     </div>
   );
 }

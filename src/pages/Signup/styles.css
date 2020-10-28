@@ -9,7 +9,7 @@
   flex: 1;  
 }
 
-.page-signup header {
+/*.page-signup header {
   position: absolute;
   top: 10px;
   left: 20px;
@@ -18,7 +18,7 @@
 .page-signup header img {
   width: 30%;
   border-radius: 56px;
-}
+}*/
 
 .page-signup .header-main {
   text-align: center;
@@ -93,7 +93,7 @@
     margin-right: auto;
   }
 
-  .page-signup header {
+  /*.page-signup header {
     position: static;    
     width: 100%;
 
@@ -104,5 +104,5 @@
 
   .page-signup header img {
     width: 20%;
-  }
+  }*/
 }

@@ -144,3 +144,11 @@
     display: none;
   }
 }
+
+@media(max-height: 600px) {
+  #page-home .content .image-colect {  
+    position: absolute;
+    left: 57.08%;
+    top: 40%;
+  }
+}

@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { FiHeart } from 'react-icons/fi';
 import Switch from 'react-input-switch';
 
-import logo from '../../images/Logo01.png';
+import Footer from '../../components/Footer';
+import Header from '../../components/Header';
 
 import './styles.css';
 
@@ -23,11 +22,8 @@ function Signup() {
   return (
     <>
       <div className="page-signup">
-        <header>
-          <Link to="/">
-            <img src={logo} alt="e-Recicle" />
-          </Link>        
-        </header>
+        <Header />
+
         <main>
           <div className="header-main">
             <p>Junte-se ao e-Recicle</p>
@@ -138,9 +134,7 @@ function Signup() {
           </form>
         </main>
 
-        <footer>
-          <span>IFMA-BdC <i><FiHeart /></i> 2020</span>
-        </footer>
+        <Footer />
       </div>
     </>
   )
